@@ -12,13 +12,7 @@
 
 		.ORIG x3000
 		
-;JSR SegClear				;attempts to clear display on bootup, does not work.
-							;please TA if you have time, remove the semicolon and 
-							;examine my code. SegClear is line 489
-							
-							;Error Message:
-							;IllegalMemAccessException accessing address xC000
-							;(The MPR and PSR do not permit access to this address)
+;JSR SegClear	
 							
 							
 							
